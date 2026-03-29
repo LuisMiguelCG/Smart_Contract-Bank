@@ -31,7 +31,7 @@ contract Bank {
 
     constructor() payable {
 
-        deposit += msg.value;
+        deposit = msg.value;
         owner = msg.sender;
     }
 
